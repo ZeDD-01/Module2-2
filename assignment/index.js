@@ -42,3 +42,8 @@ if(year % 4 === 0 && year % 100 !== 0 || year % 400 === 0 ){
 //Q3. Use a loop to print all the numbers from 1 to 100 that are divisible by 3 or 4.
 
 //Add code here
+for(let x = 0; x <= 100; x++){
+    if(x % 3 == 0 || x % 4 == 0){
+    console.log(x);
+    }
+}
